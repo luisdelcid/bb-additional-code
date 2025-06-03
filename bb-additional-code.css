@@ -1,0 +1,15 @@
+#fl-theme-builder-bb-additional-code .inside {
+    margin: 0;
+    padding: 0;
+}
+.bb-additional-code-editor {
+	background-color: #272822; /* monokai */
+}
+.bb-additional-code-editor-container {
+	background-color: #272822; /* monokai */
+	border: 1px solid #8c8f94;
+	border-radius: 4px;
+	box-sizing: border-box;
+    padding: 4px;
+	width: 100%;
+}
