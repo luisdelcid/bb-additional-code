@@ -8,8 +8,8 @@
  */
 
 // Make sure we don't expose any info if called directly.
-if(!defined('ABSPATH')){
-    die("Hi there! I'm just an extension, not much I can do when called directly.");
+if(!defined('ABSPATH') or !class_exists('__Base')){
+    die("Hi there! I'm a magic extension, not much I can do when called directly.");
 }
 
 // Include the `BB_Additional_Code` class.
